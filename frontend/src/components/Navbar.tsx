@@ -6,7 +6,7 @@ import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 
 export default function Navbar() {
   return (
-    <nav className="max-w-full flex flex-row justify-between items-center w-full gap-10 p-5 bg-slate-300 ">
+    <nav className="max-w-full flex flex-row justify-between items-center w-full gap-10 p-5 bg-slate-200 ">
       <div className="text-2xl font-bold cursor-pointer">Logo</div>
       <div className="flex flex-row gap-5 font-medium cursor-pointer">
         <h1>Women</h1>
