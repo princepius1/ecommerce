@@ -2,13 +2,15 @@ import reactLogo from "./assets/react.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
-import Hero from "./components/Hero";
+import Homepage from "./pages/Homepage";
+
+const router = createBrowserRouter([{ path: "/", element: <Homepage /> }]);
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <Navbar />
-      <Hero />
+      <RouterProvider router={router} />
     </div>
   );
 }
