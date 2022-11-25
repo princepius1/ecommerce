@@ -3,11 +3,12 @@ import LoginOutlinedIcon from "@mui/icons-material/LoginOutlined";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
+import Homepage from "../pages/Homepage";
 
 export default function Navbar() {
   return (
-    <nav className="max-w-full flex flex-row justify-between items-center w-full gap-10 p-5 bg-slate-200 ">
-      <div className="text-2xl font-bold cursor-pointer">Logo</div>
+    <nav className=" flex flex-row justify-between items-center w-full gap-10 p-5 bg-slate-200 ">
+      <h1 className="text-2xl font-bold cursor-pointer">Logo</h1>
       <div className="flex flex-row gap-5 font-medium cursor-pointer">
         <h1>Women</h1>
         <h1>Men</h1>
