@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="grid grid-cols-3 h-128 ">
+    <section className="max-w-full grid grid-cols-3 h-128 ">
       <div className="flex flex-col gap-5 bg-slate-200 p-10">
         <div className="pt-20">
           <h1 className="text-3xl">Wake up</h1>
@@ -14,8 +14,8 @@ export default function Hero() {
           Shop now
         </button>
       </div>
-      <div className="bg-hero-image2 bg-center bg-cover bg-no-repeat"></div>
-      <div className="bg-hero-image8 bg-center bg-cover bg-no-repeat"></div>
+      <div className="bg-hero-image2 object-cover bg-center bg-cover bg-no-repeat"></div>
+      <div className="bg-hero-image8 object-cover bg-center bg-cover bg-no-repeat"></div>
     </section>
   );
 }
